@@ -15,3 +15,8 @@ The result is computed based on the above input parameters and is displayed in a
 4. Total interest -> Total interest earned till now
 5. Investment capital -> Total amount invested till now
 
+Limitation: Duration should be greater than or equal to 1 year. Otherwise, there will be an error message displayed instead of the results table.
+
+Screenshots:
+
+
