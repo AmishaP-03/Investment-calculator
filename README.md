@@ -19,4 +19,10 @@ Limitation: Duration should be greater than or equal to 1 year. Otherwise, there
 
 Screenshots:
 
+Investment results displayed in a table when the entered duration was >= 1
 
+![image](https://github.com/AmishaP-03/Investment-calculator/assets/154746893/0119bd16-df09-4188-bf5e-47f9828b32e6)
+
+Error fallback message displayed when the entered duration was < 1
+
+![image](https://github.com/AmishaP-03/Investment-calculator/assets/154746893/1f80885f-b1c8-4881-acdc-1d0806086e05)
