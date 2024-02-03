@@ -11,7 +11,9 @@ export default function UserInput({userInput, onUserInputChange}) {
                         // onChange={(event) => handleChange('initialInvestment', event.target.value)}  // The anonymous function passed to onChange will receive the event object
 
                         // Since the state was lifted up to App component
-                        onChange={(event) => onUserInputChange('initialInvestment', event.target.value)}
+                        onChange={(event) => onUserInputChange('initialInvestment', event.target.value)} 
+                        // event.target.value always returns a string even though the type of input is number. So before performing any mathematical calculations
+                        // on these inputs, we must make sure to convert them to number.
                     />
                 </p>
                 <p>
